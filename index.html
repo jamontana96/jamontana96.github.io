@@ -1,302 +1,131 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <!-- Titulo -->
-  <title>Neil Thompson | Desarrollador Front End</title>
-
-  <!--Icono-->
-  <link rel="icon" type="image/x-icon" href="imagenes/apps-sshshell.svg">
-
-  <!-- Metadatos -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Jonathan Montaña">
-  <meta name="description" content="Portafolio para proyecto final integrador">
-
-  <!-- CSS -->
-  <link href="estilos.css" rel="stylesheet">
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-  <!-- Iconos de Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Roboto:wght@300&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <!-- Barra de navegacion -->
-  <nav class="navbar fixed-top navbar-expand-md bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#"><img src="imagenes/apps-sshshell.svg" width="50px" alt="Logo de la página"></a>
-        <ul class="navbar-nav d-flex justify-content-center align-items-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#mis-proyectos">Mis Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Descripcion de la persona -->
-  <section class="hero align-items-stretch">
-    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-      <img class="hero-imagen-desarrollador" src="imagenes/foto_perfil.jpg" alt="Foto de Neil Thompson">
-      <h1>Hola, soy Neil Thompson</h1>
-      <h2>Desarrollo Sitios Web</h2>
-    </div>
-
-    <div class="hero-inferior container-fluid">
-      <img class="img-fluid" src="imagenes/hero-inferior.svg"
-        alt="Monitor, notebook y logos de HTML, CSS, React y Javascript">
-    </div>
-  </section>
-
-  <!-- Sobre mi -->
-  <section class="sobre-mi seccion-oscura" id="sobre-mi">
-    <div class="contenedor">
-      <h2 class="seccion-titulo">Conoce a Neil Thompson</h2>
-      <p class="seccion-texto">Soy una persona con un gran interés por las tecnologías actuales y desarrollo de páginas web.<br>Me apasiona escribir código, resolviendo problemas que surjan en el proceso de los distintos proyectos.</p>
-    </div>
-  </section>
-
-  <!-- Experiencia -->
-  <section class="experiencia seccion-clara" id="experiencia">
-    <div class="container text-center">
-      
-      <div class="row">
-        <!-- Desarrollo Web -->
-        <div class="columna col-12 col-md-6">
-          <i class="bi bi-laptop"></i>
-          <p class="experiencia-titulo">Desarrollo Web</p>
-          <p>Esta es la primera página web que desarrollo,<br>¡planeando desarrollar muchas más en el futuro!</p>
-          <div class="badges-contenedor">
-            <span class="badge text-bg-primary">HTML</span>
-            <span class="badge text-bg-primary">CSS</span>
-            <span class="badge text-bg-primary">JavaScript</span>
-          </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <div class="carta" id="carta_uai">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczOsFXI3m5OD06-k-IkBoQ7zd_BLew3-XD61FhPGYNkE-gcm3rePf9R38jelMIvyn8qvCWK20Ag64KZ3DX4SRerjSORY48dU1cnhvqIuf8mBXGAGVNk=w2400"
+            alt="logo_UAI"
+          />
+          <h2>Universidad Interamericana Abierta</h2>
         </div>
-        <!-- Estudiante -->
-        <div class="columna col-12 col-md-6">
-          <i class="bi bi-book"></i>
-          <p class="experiencia-titulo">Estudios</p>
-          <p>Bootcamps intensivos.<br>Documentación para herramientas de desarrollo web.</p>
-          <div class="badges-contenedor">
-            <span class="badge text-bg-primary">w3schools</span>
-            <span class="badge text-bg-primary">Bootstrap</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Proyectos -->
-  <section class="proyectos-recientes seccion-clara d-flex flex-column" id="mis-proyectos">
-    <h2 class="seccion-titulo texto-negro text-center">Mis proyectos</h2>
-    <h3 class="seccion-descripcion text-center">Estos son algunos de los proyectos en los que he estado trabajando.</h3>
-
-    <div class="container proyectos-contenedor text-center ">
-      <div class="row">
-        <!-- Proyecto 1 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto1.png" alt="Proyecto 1">
-            <div class="overlay">
-              <p>Proyecto 1</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Proyecto 2 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto2.png" alt="Proyecto 2">
-            <div class="overlay">
-              <p>Proyecto 2</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Proyecto 3 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto3.png" alt="Proyecto 3">
-            <div class="overlay">
-              <p>Proyecto 3</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Proyecto 4 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto4.png" alt="Proyecto 4">
-            <div class="overlay">
-              <p>Proyecto 4</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Proyecto 5 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto5.png" alt="Proyecto 5">
-            <div class="overlay">
-              <p>Proyecto 5</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Proyecto 6 -->
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="proyecto">
-            <img src="imagenes/proyecto6.png" alt="Proyecto 6">
-            <div class="overlay">
-              <p>Proyecto 6</p>
-              <div class="iconos-contenedor">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
-                  <i class="bi bi-laptop"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Contacto -->
-  <section class="contacto seccion-oscura" id="contacto">
-    <div class="container rectangulo">
-      <div class="seccion-titulo d-flex flex-column justify-content-center align-items-center">
-        ¡Contáctame!
-      </div>
-      <div class="form-floating form-campo">
-        <input type="text" class="form-control" id="asunto" placeholder="Asunto" required>
-        <label for="floatingTextArea">Asunto</label>
-      </div>
-      <div class="form-floating form-campo">
-        <textarea class="form-control" id="mensaje" placeholder="Mensaje" required style="height: 200px;"></textarea>
-        <label for="floatingTextArea">Mensaje</label>
-      </div>
-      <div class="contenedor-boton d-flex justify-content-center">
-        <button id="botonEnviar" type="submit">
-          Enviar mensaje
-          <i class="bi bi-envelope-check"></i>
+        <button class="botonDescargar" onclick="descargarImagen('carta_uai')">
+          Descargar Carta UAI
         </button>
-      </div>
-
-      <div class="alertas-usuario d-flex justify-content-center align-items-center">
-        <!-- Mensaje de error -->
-        <div class="alert alert-danger " role="alert" id="saludo-mensaje-error">
-          Por favor complete los campos "Asunto" y "Mensaje".
+      </li>
+      <li>
+        <div class="carta" id="carta_udemm">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczPt6v4KzU3uFtIN2rpFRnDIUL7DZNQJT0nzp7EpJMo-OHR2mp7u0lo33vC7vWku3SN4PR7bbE-0zxsMJggdYCQESOnOFSnyk7sjQZEdNoStE9Fjijo=w2400"
+            alt="logo_UDEMM"
+          />
+          <h2>Universidad de la Marina Mercante</h2>
         </div>
-
-        <!-- Mensaje de exito -->
-        <div class="alert alert-success " role="alert" id="saludo-mensaje-exitoso">
-          ¡Muchas gracias por su mensaje!
+        <button class="botonDescargar" onclick="descargarImagen('carta_udemm')">
+          Descargar Carta UdeMM
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unh">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczNgz9lqNHEsCLw7BSt_v4g64vcjGrvms7JZPY7B9cXRftulhSvxyVcELO1jK6D6B1fZa_3yNeeCGhXh1PjCRheB2gkbNwgiHR_ZU9D7rKZFCL5XRVA=w2400"
+            alt="logo_UNAHUR"
+          />
+          <h2>Universidad Nacional de Hurlingham</h2>
         </div>
-      </div>
-
-    </div>
-    </div>
-  </section>
-
-  <!-- Pie de pagina -->
-  <footer class="pie-de-pagina seccion-oscura d-flex flex-column align-items-center justify-content-center">
-    <img class="footer-icono" src="imagenes/apps-sshshell.svg" alt="Logo de la pagina">
-    <p class="footer-texto text-center">Mis redes sociales</p>
-    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-      <a href="https://twitter.com/home?lang=es" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-twitter"></i>
-      </a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-instagram"></i>
-      </a>
-    </div>
-    <div class="derechos-de-autor">Creado por Neil Thompson (2023) &#169</div>
-  </footer>
-
-  <!-- Formulario de contacto -->
-  <script src="formContacto.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-</body>
-
+        <button class="botonDescargar" onclick="descargarImagen('carta_unh')">
+          Descargar Carta UNH
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unm">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczMjrHjA0rH80r_zu0h13C-b9EIrQmEfHG3PyD88BgI9-tzgfu6LBT3OMA_E9dBkynJuZLgtFgbsWa1BG9CERlhmJuIeyZ2OLvKxAdGF3ac3hfn2w4Y=w2400"
+            alt="logo_Ypf"
+          />
+          <h2>Universidad Nacional de Misiones</h2>
+        </div>
+        <button class="botonDescargar" onclick="descargarImagen('carta_unm')">
+          Descargar Carta UNM
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unc">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczM7PybXylvpb4NLRf2g72TTZB5R7W5SJfL3Fj89ZSf8i8WcNmXdLX0EoFe4OXAuEDi-TTteTGhiX8xJEUZvl8TaH6MVkRL7K8pFtKLdyqDYrYbCU_M=w2400"
+            alt="logo_UNC"
+          />
+          <h2>Universidad Nacional de Córdoba</h2>
+        </div>
+        <button class="botonDescargar" onclick="descargarImagen('carta_unc')">
+          Descargar Carta UNC
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_ungs">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczPxxuQwAcgQdHPYTjYGKK2-Gg3O7STJEsPRa7WPh2H5oQubFrOHHIx_ogcMUCRTsg878corixEfOUWgX_KmY2pxyjEA4pRxnL5mQaXfXdkPbZSWHTo=w2400"
+            alt="logo_UNGS"
+          />
+          <h2>Universidad Nacional de General Sarmiento</h2>
+        </div>
+        <button class="botonDescargar" onclick="descargarImagen('carta_ungs')">
+          Descargar Carta UNGS
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unne">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczNdgFhVqlNwg61KDlQcsonpPeWdg9Cg9TE0-4V1mXiPRCXZZPK3_iGmavp58HXmv940SvYjbyOKohraRaDMxUfvmdA85alJQwAPXDQmlUmrbxe-Ct8=w2400"
+            alt="logo_UNNE"
+          />
+          <h2>Universidad Nacional del Nordeste</h2>
+        </div>
+        <button class="botonDescargar" onclick="descargarImagen('carta_unne')">
+          Descargar Carta UNNE
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unnoba">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczPv8Y24K5rEczk_RMxLyFfRC5epznw_gd_wZkeqAEyY88Z2Z7M-mCr6WAz04hMvfZwB-BeE9Id7NRmi4ertK3KuNGzHeilxNFDXEr6KCG4ghCaJ0nE=w2400"
+            alt="logo_UNNOBA"
+          />
+          <h2>Universidad Nacional del Noroeste de Buenos Aires</h2>
+        </div>
+        <button
+          class="botonDescargar"
+          onclick="descargarImagen('carta_unnoba')"
+        >
+          Descargar Carta UNNOBA
+        </button>
+      </li>
+      <li>
+        <div class="carta" id="carta_unr">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczNChixCxN4FzCIeHX2DJ_eKevmIvy07LwrZBlcHs44EyReQZxj6ezP95QGAO1LjJ74nPlPa9fqOc1qZyRKLcR7Yh4aUHl7utIgmkJIVas3FTSooEog=w2400"
+            alt="logo_UNR"
+          />
+          <h2>Universidad Nacional de Rosario</h2>
+        </div>
+        <button class="botonDescargar" onclick="descargarImagen('carta_unr')">
+          Descargar Carta UNR
+        </button>
+      </li>
+    </ul>
+    <script src="html2canvas.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
